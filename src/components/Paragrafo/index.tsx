@@ -1,7 +1,7 @@
 import { P } from './styles'
 
 export type Props = {
-  children: string
+  children: JSX.Element | string
   tipo?: 'principal' | 'secundario'
   fontSize?: number
 }
